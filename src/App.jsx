@@ -42,7 +42,7 @@ const App = () => {
       return;
     }
 
-    const newData = [...data, { id: data.length + 1, title: newItem, body: 'New Item' }];
+    const newData = [...data, { id: data.length + 1, title: newItem }];
     setData(newData);
     setNewItem('');
   };
